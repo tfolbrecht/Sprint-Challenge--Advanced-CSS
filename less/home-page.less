@@ -59,11 +59,10 @@
 
       .btn {
         button {
-          color: white;
-          background-color: #23293B;
-          font-weight: bold;
-          border-radius: 5px;
-          border-color: #23293B;
+          .signup(@wild-sand, @btn-bg-color);
+        }
+        button:hover {
+          .signup(@btn-bg-color, @wild-sand);
         }
       }
     }
