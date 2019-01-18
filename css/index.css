@@ -160,6 +160,9 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+nav h1 {
+  font-size: 3.2rem;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -211,6 +214,13 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn button {
+  color: white;
+  background-color: #23293B;
+  font-weight: bold;
+  border-radius: 5px;
+  border-color: #23293B;
 }
 .home .walk .walk-img {
   width: 46%;
