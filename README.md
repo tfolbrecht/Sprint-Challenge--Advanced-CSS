@@ -39,7 +39,7 @@ Edit this document to include your answers after each question. Make sure to lea
 * * Mobile first means you put a primary focus on mobile web clients first. Desktop first is visaversa, outside the scope of UI, both offer different advantages and disadvantages so you target one or the other based on those properties. 
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
-
+* * font size determins the rem value size. 0.625/1 
 
 4. How would you describe preprocessing to someone new to CSS?
 * * A preprocessor has an alternative syntax that faciliates maintainability and other features that you can then use to generate CSS that a browser can use.

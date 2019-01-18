@@ -135,7 +135,7 @@ html {
 html,
 body {
   font-family: 'Ubuntu', sans-serif;
-  color: #5E6164;
+  color: #454A59;
 }
 h1,
 h2,
@@ -160,8 +160,33 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+nav {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 nav h1 {
-  font-size: 3.2rem;
+  padding: 1%;
+  align-self: center;
+  font-size: 4rem;
+}
+nav .links {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 50%;
+  align-self: center;
+  padding: 1%;
+}
+nav .links a {
+  font-size: 2.2rem;
+  color: #23293B;
+}
+nav .links a:link,
+nav a:visited {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #23293B;
 }
 footer {
   color: #22283B;
@@ -178,6 +203,9 @@ footer {
 }
 .home .intro p {
   padding: 0 15px;
+}
+.home .intro img {
+  border-radius: 5px;
 }
 .home .space-images {
   display: flex;
@@ -221,6 +249,7 @@ footer {
   border-color: #22283A;
   font-weight: bold;
   border-radius: 5px;
+  padding: 6px 12px;
 }
 .home .walk .walk-text .btn button:hover {
   color: #22283A;
@@ -228,6 +257,7 @@ footer {
   border-color: #22283A;
   font-weight: bold;
   border-radius: 5px;
+  padding: 6px 12px;
 }
 .home .walk .walk-img {
   width: 46%;
